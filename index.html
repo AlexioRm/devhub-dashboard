@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevHub Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">DevHub</div>
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="#">🏠 Inicio</a></li>
+        <li><a href="#">📂 Proyectos</a></li>
+        <li><a href="#">👤 Perfil</a></li>
+        <li><a href="#">🚪 Cerrar Sesión</a></li>
+      </ul>
+    </nav>
+    <h1>Dashboard de Proyectos</h1>
+  </header>
+
+  <main>
+    <section class="filtros">
+      <h2>Filtrar Proyectos</h2>
+      <button data-estado="Todos">Todos</button>
+      <button data-estado="En Progreso">En Progreso</button>
+      <button data-estado="Completado">Completado</button>
+      <button data-estado="Pausado">Pausado</button>
+    </section>
+
+    <section id="proyectos" class="grid-proyectos">
+      <h2>Lista de Proyectos</h2>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>Síguenos en 
+      <a href="#">Instagram</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
