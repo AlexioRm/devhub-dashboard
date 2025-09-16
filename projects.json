@@ -1,0 +1,51 @@
+
+[
+  {
+    "nombre": "Gestor de Tareas",
+    "estado": "En Progreso",
+    "fecha": "2025-09-01",
+    "tecnologias": ["JavaScript", "HTML", "CSS"]
+  },
+  {
+    "nombre": "E-commerce React",
+    "estado": "Completado",
+    "fecha": "2025-08-15",
+    "tecnologias": ["React", "Node.js", "MongoDB"]
+  },
+  {
+    "nombre": "App de Finanzas",
+    "estado": "Pausado",
+    "fecha": "2025-07-20",
+    "tecnologias": ["Vue.js", "Firebase"]
+  },
+  {
+    "nombre": "Sistema de Inventario",
+    "estado": "En Progreso",
+    "fecha": "2025-09-02",
+    "tecnologias": ["Django", "Python", "SQLite"]
+  },
+  {
+    "nombre": "Red Social Minimal",
+    "estado": "Completado",
+    "fecha": "2025-08-05",
+    "tecnologias": ["Laravel", "PHP", "MySQL"]
+  },
+  {
+    "nombre": "Blog Personal",
+    "estado": "En Progreso",
+    "fecha": "2025-08-25",
+    "tecnologias": ["Next.js", "TailwindCSS"]
+  },
+  {
+    "nombre": "Plataforma de Cursos",
+    "estado": "Pausado",
+    "fecha": "2025-06-10",
+    "tecnologias": ["Angular", "Express", "PostgreSQL"]
+  },
+  {
+    "nombre": "App de Recetas",
+    "estado": "Completado",
+    "fecha": "2025-07-28",
+    "tecnologias": ["Svelte", "Supabase"]
+  }
+]
